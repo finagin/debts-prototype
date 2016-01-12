@@ -55,6 +55,10 @@
 				-webkit-animation: fa-spin 10s infinite linear;
 				animation: fa-spin 10s infinite linear;
 			}
+			h1.head > a {
+				text-decoration: none;
+				cursor: pointer;
+			}
 			@-webkit-keyframes fa-spin {
 				0% {
 					-webkit-transform: rotate(359deg);
@@ -84,7 +88,11 @@
 					<i class="fa fa-bug fa-spin fa-5x text-center"></i>
 				</div>
 			</div>
-			<h1>ВДолгах</h1>
+			<h1 class="head">
+				<a href="/">
+					ВДолгах
+				</a>
+			</h1>
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Цель</label>
